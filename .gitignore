@@ -16,6 +16,7 @@ build
 nbproject/
 .idea
 .git
+.gitignore
 nbproject
 
 /fuel/app/config/crypt.php
