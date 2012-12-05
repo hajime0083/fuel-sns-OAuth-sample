@@ -84,6 +84,7 @@ class Controller_oauth extends Controller_Template
                         if(array_key_exists('error',$result)){
                             $result = "error:" . $result['error'];
                         }else{
+                            $result = "";
                             $tweet = "";
                         }
                         
@@ -100,7 +101,6 @@ class Controller_oauth extends Controller_Template
                     $data['login'] = false;
                 }
             }
-            
             $data['result'] = $result;
             $data['tweet'] = $tweet;
             $this->template->content = View::forge('oauth/post',$data);
