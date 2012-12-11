@@ -6,8 +6,8 @@ return array(
             'secret' => 'YOUR_FACEBOOK_APP_SECRET',
         ),
         'login' => array(
-            'redirect_uri' => Uri::create('fb/callback'),
-            'scope' => array('publish_stream',),
+            'redirect_uri' => Uri::create('fb/index'),
+            'scope' => array('status_update,publish_stream',),
         ),
         'logout' => array(
             'next' => Uri::create('fb/index'),
