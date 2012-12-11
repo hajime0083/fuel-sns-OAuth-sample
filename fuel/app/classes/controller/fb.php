@@ -63,7 +63,7 @@ class Controller_fb extends Controller_Template
             
             if(!$this->fb->getUser()){
                 // ログインURLを作るときにscopeを下記にしないと、ユーザーのフィードが更新できない模様
-                $login_url = $this->fb->getLoginUrl(array('scope'=>'status_update,publish_stream'));
+                $login_url = $this->fb->getLoginUrl(Config::get('facebook.login'));
                 Response::redirect($login_url);
             }else{
                 Response::redirect(Uri::create('fb/index'));
