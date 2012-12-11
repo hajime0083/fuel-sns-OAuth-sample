@@ -20,6 +20,12 @@ return array(
         'packages'  => array(
             'twitter', 
         ),
+        /**
+         * config settings
+         */
+        'config' => array(
+            'fb' => null,
+        ),
     ),
     
     /**
@@ -29,5 +35,5 @@ return array(
         'whitelisted_classes' => array(
             'Twitter\\Twitter_Oauth_Response'
         )
-    )
+    ),
 );

@@ -45,6 +45,7 @@
               <li class="nav-header">Menu</li>
               <li<?php if($content->menuClass=="index"){echo ' class="active"';}?>><?php echo Html::anchor('index/index','テストトップ'); ?></li>
               <li<?php if($content->menuClass=="oauth"){echo ' class="active"';}?>><?php echo Html::anchor('oauth/index','TwitterOAuth関係'); ?></li>
+              <li<?php if($content->menuClass=="fb"){echo ' class="active"';}?>><?php echo Html::anchor('fb/index','Facebook関係'); ?></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
