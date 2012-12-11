@@ -19,3 +19,4 @@ reference(thanx)
 ###[facebook-php-sdk]
 (http://www.s-arcana.co.jp/tech/2011/10/facebook-4.html "ARCANA技術ブログ::Facebookアプリのウォールの投稿ではまった")
 (http://madroom-project.blogspot.jp/2011/12/fuelphpfacebook.html "madroom project::FuelPHPでFacebookアプリを作ってみよう。準備編。")
+(http://appofit.com/facebook/remove_offline_access/ "APPOFIT::offline_accessパーミッション削除に対応する")
