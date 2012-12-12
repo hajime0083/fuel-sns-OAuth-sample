@@ -18,20 +18,20 @@
 ###現在組み込んであるもの
 #### fuel-twitter
 TwitterのOAuthを使ってユーザーに認証＆認証したユーザーのタイムラインに投稿を行うサンプル  
-*package*
-/fuel/packages/twitter
-*config*
-/fuel/app/config/twitter.php
+**package**  
+/fuel/packages/twitter  
+**config**  
+/fuel/app/config/twitter.php  
 
 #### facebook-php-sdk
 アプリのユーザー認証＆認証したユーザーのフィードに投稿を行うサンプル  
 現在(12/12/12)ユーザートークンの有効期限は60日ですが、フィード投稿だけならアプリ側のtokenとsecretだけでできるため、  
 永続的に利用可能です。ユーザートークンを使う場合は適宜変更してください。  
 ユーザートークンの定期的な自動更新については考え中。
-*vender*
-/fuel/app/vendor/facebook-php-sdk
-*config*
-/fuel/app/config/fb.php
+**vender**  
+/fuel/app/vendor/facebook-php-sdk  
+**config**  
+/fuel/app/config/fb.php  
 
 ---------------------------------------
 
